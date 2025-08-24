@@ -164,11 +164,11 @@ img {
     margin: 0 auto;
     display: block;
     min-width: 169px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:hover::after,
-.hero-button:hover::before {
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.hero-button:hover {
+    background-color: #404bbf;
 }
 
 .advantages-section {
